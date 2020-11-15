@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://china-xiaoming.github.io</id>
     <title>小铭的博客</title>
-    <updated>2020-11-15T03:37:48.017Z</updated>
+    <updated>2020-11-15T03:43:10.309Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://china-xiaoming.github.io"/>
     <link rel="self" href="https://china-xiaoming.github.io/atom.xml"/>
@@ -11,16 +11,30 @@
     <icon>https://china-xiaoming.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 小铭的博客</rights>
     <entry>
+        <title type="html"><![CDATA[about]]></title>
+        <id>https://china-xiaoming.github.io/post/about/</id>
+        <link href="https://china-xiaoming.github.io/post/about/">
+        </link>
+        <updated>2020-11-15T03:38:06.000Z</updated>
+        <content type="html"><![CDATA[<p>此博客由<strong>小铭xiaoming</strong>搭建和维护</p>
+<p>html网页使用Github Pages和Gridea生成</p>
+<p>博客内文章转载请注明出处</p>
+<p>谢谢！</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Welcome to my blog!]]></title>
         <id>https://china-xiaoming.github.io/post/welcome-to-my-blog/</id>
         <link href="https://china-xiaoming.github.io/post/welcome-to-my-blog/">
         </link>
         <updated>2020-11-15T00:56:27.000Z</updated>
         <content type="html"><![CDATA[<p>欢迎来到我的<strong>博客</strong>！</p>
-<p>您可以通过以下几种方式<strong>联系</strong>到我：<br>
+<p>我爱好<strong>技术研究</strong>，正在学习Java(kotlin),Android开发等，有时也发布教程，与programmer们交流。</p>
+<p>您也可以通过以下几种方式<strong>联系</strong>到我：<br>
 QQ：3220827050<br>
 wechat：hongmingze123<br>
 酷安：小铭xiaoming</p>
+<p>永远相信<strong>美好的事情即将发生！</strong></p>
 ]]></content>
     </entry>
 </feed>

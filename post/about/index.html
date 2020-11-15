@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | 小铭的博客</title>
+<title>about | 小铭的博客</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,24 @@
 <link rel="stylesheet" href="https://china-xiaoming.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="永远相信美好的事情即将发生！">
+    <meta name="description" content="此博客由小铭xiaoming搭建和维护
+html网页使用Github Pages和Gridea生成
+博客内文章转载请注明出处
+谢谢！
+" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -76,40 +87,38 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">about</h2>
+            <div class="post-date">2020-11-15</div>
+            
+            <div class="post-content" v-pre>
+              <p>此博客由<strong>小铭xiaoming</strong>搭建和维护</p>
+<p>html网页使用Github Pages和Gridea生成</p>
+<p>博客内文章转载请注明出处</p>
+<p>谢谢！</p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://china-xiaoming.github.io/post/welcome-to-my-blog/">
+                  <h3 class="post-title">
+                    Welcome to my blog!
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://china-xiaoming.github.io/post/about/">
-                      <h2 class="post-title">
-                        about
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://china-xiaoming.github.io/post/welcome-to-my-blog/">
-                      <h2 class="post-title">
-                        Welcome to my blog!
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -130,6 +139,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '539062b2184fa21cdc8c',
+        clientSecret: '4403a5fa1773e04b57543b3ec8e555f7afe0402e',
+        repo: 'China-xiaoming.github.io',
+        owner: 'China-xiaoming',
+        admin: ['China-xiaoming'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
