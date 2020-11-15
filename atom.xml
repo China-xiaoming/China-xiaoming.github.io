@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://china-xiaoming.github.io</id>
     <title>小铭的博客</title>
-    <updated>2020-11-15T03:51:36.788Z</updated>
+    <updated>2020-11-15T03:59:29.890Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://china-xiaoming.github.io"/>
     <link rel="self" href="https://china-xiaoming.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://china-xiaoming.github.io/post/welcome-to-my-blog/">
         </link>
         <updated>2020-11-15T00:56:27.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎来到我的<strong>博客</strong>！</p>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://china-xiaoming.github.io/post-images/1605412762491.jpg" alt="" loading="lazy"></figure>
+<p>欢迎来到我的<strong>博客</strong>！</p>
 <p>我爱好<strong>技术研究</strong>，正在学习Java(kotlin),Android开发等，有时也发布教程和资源，与programmer们交流。</p>
 <p>您也可以通过以下几种方式<strong>联系</strong>到我：<br>
 QQ：3220827050<br>
