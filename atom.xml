@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://china-xiaoming.github.io</id>
     <title>小铭的博客</title>
-    <updated>2020-11-15T05:52:52.793Z</updated>
+    <updated>2020-11-15T05:59:28.994Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://china-xiaoming.github.io"/>
     <link rel="self" href="https://china-xiaoming.github.io/atom.xml"/>
@@ -18,26 +18,28 @@
         <updated>2020-11-15T05:34:46.000Z</updated>
         <content type="html"><![CDATA[<p>事情的起因是因为有机油请求我帮他的E2 root一下，看了看我的E2也没root，干脆将计就计，拿他来当小白鼠😏。果断答应。</p>
 <figure data-type="image" tabindex="1"><img src="https://china-xiaoming.github.io/post-images/1605418581115.jpg" alt="" loading="lazy"></figure>
-<p>准备刷的时候才发现，网上根本没资源啊！！！</p>
+<p>准备刷的时候才发现，网上根本<strong>没资源</strong>啊！！！</p>
 <p>一开始的想法是拿同Soc的手表（ticwatch PRO和ticwatch C2）的twrp刷进去，或者是把boot dd if出来修补。但是想了想并不保险。还是得去网上找资源。</p>
 <p>翻遍了xda,github,酷安,贴吧等等，都没有找到，最后还是在一个个人博客里面找到的</p>
 <p><img src="https://china-xiaoming.github.io/post-images/1605418693556.jpg" alt="" loading="lazy"><br>
 <img src="https://china-xiaoming.github.io/post-images/1605418723096.jpg" alt="" loading="lazy"></p>
-<p>有了刷机包，直接远程开干喝茶把其他乱七八糟的撤了，留下twrp就行<br>
+<p>有了刷机包，直接远程开干。把其他乱七八糟的撤了，留下twrp就行<br>
 以下省略200字......</p>
 <figure data-type="image" tabindex="2"><img src="https://china-xiaoming.github.io/post-images/1605418784031.jpg" alt="" loading="lazy"></figure>
 <p>解锁之后发现会自动重启恢复出厂设置，所以要重新和手机配对后再进行下一步。</p>
-<p>配对完毕后，重新进入fastboot，这时候你有两种选择：<br>
+<p>配对完毕后，重新进入fastboot，这时候你有<strong>两种选择</strong>：<br>
 1.刷入临时twrp（fastboot boot twrp.img）<br>
 2.刷入永久twrp（fastboot flash recovery twrp.img）</p>
-<p>我使用了第一种，毕竟保险起见嘛</p>
-<p>指令输完回车，果然立刻重启到了twrp，在twrp里面直接安装面具19.3（推荐）之后直接重启就完事了</p>
-<p>最后，请看成果：<br>
+<p>我使用了第一种，毕竟<strong>保险起见</strong>嘛😅</p>
+<p>指令输完回车，果然立刻重启到了twrp，在twrp里面直接安装<strong>面具19.3</strong>（推荐）之后直接重启就完事了</p>
+<p>最后，请看<strong>成果</strong>：<br>
 <img src="https://china-xiaoming.github.io/post-images/1605419143215.jpg" alt="" loading="lazy"><br>
 <img src="https://china-xiaoming.github.io/post-images/1605419148863.jpg" alt="" loading="lazy"><br>
 <img src="https://china-xiaoming.github.io/post-images/1605419154186.jpg" alt="" loading="lazy"></p>
 <p>当然，刷机资源里面还有国际版的刷机包，想尝鲜的小伙汁可以试试</p>
-<p>本贴完</p>
+<p>本贴完。</p>
+<p><em>本文最初发布在酷安，转载请注明出处。</em><br>
+https://www.coolapk.com/feed/22088333?shareKey=Mjc3NmE3Njk0NTFkNWZiMGJjNDg~&amp;shareUid=2652348&amp;shareFrom=com.coolapk.market_11.0-beta2</p>
 ]]></content>
     </entry>
     <entry>
