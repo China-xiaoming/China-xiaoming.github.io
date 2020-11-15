@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://china-xiaoming.github.io</id>
     <title>小铭的博客</title>
-    <updated>2020-11-15T04:14:16.323Z</updated>
+    <updated>2020-11-15T05:40:32.387Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://china-xiaoming.github.io"/>
     <link rel="self" href="https://china-xiaoming.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://china-xiaoming.github.io/images/avatar.png</logo>
     <icon>https://china-xiaoming.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 小铭的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[ticwatch E2 刷机记]]></title>
+        <id>https://china-xiaoming.github.io/post/ticwatch-e2/</id>
+        <link href="https://china-xiaoming.github.io/post/ticwatch-e2/">
+        </link>
+        <updated>2020-11-15T05:34:46.000Z</updated>
+        <content type="html"><![CDATA[<p>事情的起因是因为有机油请求我帮他的E2 root一下，看了看我的E2也没root，干脆将计就计，拿他来当小白鼠😏。果断答应。</p>
+<figure data-type="image" tabindex="1"><img src="https://china-xiaoming.github.io/post-images/1605418581115.jpg" alt="" loading="lazy"></figure>
+<p>准备刷的时候才发现，网上根本没资源啊！！！</p>
+<p>一开始的想法是拿同Soc的手表（ticwatch PRO和ticwatch C2）的twrp刷进去，或者是把boot dd if出来修补。但是想了想并不保险。还是得去网上找资源。</p>
+<p>翻遍了xda,github,酷安,贴吧等等，都没有找到，最后还是在一个个人博客里面找到的</p>
+<p><img src="https://china-xiaoming.github.io/post-images/1605418693556.jpg" alt="" loading="lazy"><br>
+<img src="https://china-xiaoming.github.io/post-images/1605418723096.jpg" alt="" loading="lazy"></p>
+<p>有了刷机包，直接远程开干喝茶把其他乱七八糟的撤了，留下twrp就行<br>
+以下省略200字......</p>
+<figure data-type="image" tabindex="2"><img src="https://china-xiaoming.github.io/post-images/1605418784031.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome to my blog!]]></title>
         <id>https://china-xiaoming.github.io/post/welcome-to-my-blog/</id>
